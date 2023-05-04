@@ -12,7 +12,8 @@ const Button = ({
   children,
   onClick,
   type = "button",
-  variant = "secondary", // or 'secondary'
+  variant = "primary",
+  disabled = false,
 }) => {
   return (
     <button
@@ -25,6 +26,7 @@ const Button = ({
       })}
       type={type}
       onClick={onClick}
+      disabled={disabled}
     >
       {children}
     </button>

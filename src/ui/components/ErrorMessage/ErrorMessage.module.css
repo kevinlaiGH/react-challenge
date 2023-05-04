@@ -1,0 +1,50 @@
+.errorMessage {
+  background: red;
+  color: white;
+  border-radius: var(--border-radius-default);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: bold;
+  max-width: var(--width-input);
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  transition: transform 0.1s ease;
+  width: 100%;
+  text-align: center;
+  /* animation: blinkingText 2s infinite; */
+}
+
+@keyframes blinkingText{
+  0%		{ background-color: white;}
+  5%		{ background-color: black;}
+  10%		{ background-color: white;}
+  15%		{ background-color: black;}
+  20%		{ background-color: white;}
+  25%		{ background-color: black;}
+  30%		{ background-color: white;}
+  35%		{ background-color: black;}
+  40%		{ background-color: white;}
+  45%		{ background-color: black;}
+  50%		{ background-color: white;}
+  55%		{ background-color: black;}
+  60%		{ background-color: white;}
+  65%		{ background-color: black;}
+  70%		{ background-color: white;}
+  75%		{ background-color: black;}
+  80%		{ background-color: white;}
+  85%		{ background-color: black;}
+  90%		{ background-color: white;}
+  95%		{ background-color: black;}
+  100%	{ background-color: white;}
+}
+
+
+/* @keyframes blinkingText{
+  0%		{ color: white;}
+  25%		{ color: black;}
+  50%		{ color: white;}
+  75%		{ color: black;}
+  100%	{ color: white;}
+} */

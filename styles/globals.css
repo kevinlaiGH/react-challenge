@@ -40,6 +40,12 @@ body {
   font-size: 18px;
   font-family: var(--font-primary);
   background: var(--color-accent);
+  /* animation: blinkingText 2s infinite; */
+}
+
+@keyframes blinkingText{
+  0%		{ background-color: black;}
+  50%		{ background-color: red;}
 }
 
 main {
