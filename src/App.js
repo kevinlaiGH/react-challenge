@@ -162,6 +162,7 @@ function App() {
           <Image
             className={styles.posCenter}
             src={require("./assets/rocket.gif")}
+            alt="Loading"
             width="200"
             height="200"
           />
@@ -193,7 +194,12 @@ function App() {
         {error && <ErrorMessage error={error} />}
 
         {/* TODO: Add a button to clear all form fields. Button must look different from the default primary button, see design. */}
-        <Button type="button" variant="secondary" onClick={handleClearFields}>
+        <Button
+          type="button"
+          aria-label="Clear"
+          variant="secondary"
+          onClick={handleClearFields}
+        >
           Clear all fields
         </Button>
       </Section>
